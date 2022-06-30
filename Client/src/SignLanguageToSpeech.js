@@ -17,7 +17,7 @@ function SignLanguageToSpeech() {
     // 3. TODO - Load network 
     // e.g. const net = await cocossd.load();
     // https://tensorflowjsrealtimemodel.s3.au-syd.cloud-object-storage.appdomain.cloud/model.json
-    const net = await tf.loadGraphModel('https://tensorflowjsrealtimemodel.s3.au-syd.cloud-object-storage.appdomain.cloud/model.json')
+    const net = await tf.loadGraphModel('https://majorprojecta7.s3.jp-tok.cloud-object-storage.appdomain.cloud/model.json')
     
     //  Loop and detect hands
     setInterval(() => {
